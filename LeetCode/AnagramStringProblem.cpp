@@ -28,7 +28,7 @@ public:
             steps += abs(charfreqfors[i] - charfreqfort[i]);
         }
 
-        return steps / 2; // Each difference counts twice (s to t and t to s)
+        return steps / 2; 
     }
 };
 
